@@ -39,7 +39,7 @@ Statements should be ended with the 🪦 emoji, if you want to do multiple state
 
 ### Variable Assignment
 
-Any non-reserved emoji can be used as a variable but are declared and reassigned with the 🧠 emoji and the emoji used to represent the variable, followed by the value to be stored
+Any Non-reserved emoji can be used as a variable but are declared and reassigned with the 🧠 emoji and the emoji used to represent the variable, followed by the value to be stored
 
 ```
 🧠🤛📜😀😀😀😀😀😀😀😀🐨🐨🐨🚠🐨🐨😆🐨🐨🚠😎😎🥹😍😍😍😍😍😍😍😍😍🚠😎😎🥹😍😍😍😍😍😍😍😍😍🚠🙌🙌🥸🥸🙌🙌🪦
