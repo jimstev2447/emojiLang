@@ -1,4 +1,6 @@
 const fs = require("fs");
+const GraphemeSplitter = require("grapheme-splitter");
+const splitter = new GraphemeSplitter();
 const data = fs.readFileSync("./test.txt", "utf-8");
 const { stdout, stderr } = require("process");
 
@@ -16,8 +18,8 @@ function createToken(type, lexeme, literal, line) {
 }
 
 const tokenTypes = {
-  "🌕": 'true',
-  "🌑": 'false',
+  "🌕": "true",
+  "🌑": "false",
   "📜": "string",
   "🧠": " variable",
   "👍": "plus",
@@ -44,3 +46,6 @@ const tokenTypes = {
   "🪦": "endOfStatement",
   "🗣️": "print",
 };
+
+const emojis = splitter.splitGraphemes(data);
+console.log(emojis);
